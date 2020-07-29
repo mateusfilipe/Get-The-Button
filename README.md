@@ -21,9 +21,11 @@ the css style and the <a href="https://github.com/mateusfilipe/Get-The-Button/bl
 
 <h2>Progress</h2>
 <ul>
- <li>Day 1 ✔️</li>
+ <li>Day 1 ✔️<br>
  First day working, my first impression is: that sounded simpler im my head. But i did the skeleton of  the project
  built a green button that goes to a random place on the screen, one button to start and one to return the button.
- Also i created a simple score that cout the times you clicked the green button. Looking forward for where it can go.
- <li>Day 2</li>
+ Also i created a simple score that cout the times you clicked the green button. Looking forward for where it can go.</li>
+ <li>Day 2 ❌<br>
+  ...
+ </li>
 </ul>
