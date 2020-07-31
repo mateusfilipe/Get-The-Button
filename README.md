@@ -25,7 +25,8 @@ the css style and the <a href="https://github.com/mateusfilipe/Get-The-Button/bl
  First day working, my first impression is: that sounded simpler im my head. But i did the skeleton of  the project
  built a green button that goes to a random place on the screen, one button to start and one to return the button.
  Also i created a simple score that cout the times you clicked the green button. Looking forward for where it can go.</li>
- <li>Day 2 ❌<br>
-  ...
+ <li>Day 2 ✔️<br>
+ Second day on the project, not going so well. I can't find a way to make to button keeps constantly moving on the screen.
+ So today I just changed some functions and tried new things.
  </li>
 </ul>
