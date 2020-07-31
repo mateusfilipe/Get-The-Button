@@ -1,6 +1,6 @@
 var score = 0;
-var btnStart = false;
-var btnStop = false;
+var btnWait = false;
+const btnConst = true;
 function btnMove(){
 	document.getElementById("clickBtn").style.left= Math.floor(Math.random() * 1087)+200+"px";
 	document.getElementById("clickBtn").style.top= Math.floor(Math.random() * 621)+"px";
@@ -13,18 +13,21 @@ function btnClickFunction(){
 }
 function btnStopFunction(){
 	score = 0;
-	btnStop = true;
+	btnWait = false;
 	document.getElementById("clickBtn").style.left= 15+"px";
 	document.getElementById("clickBtn").style.top= 105+"px";
 	document.getElementById("pts").innerHTML = "Score: " + score;
 }
 function btnStartFunction(){
-	btnStart = true;	
+	btnWait = true;
+	btnMoveTime();
 }
 
 function btnMoveTime(){
-	for(var i = 0 ; i < 10000 ; i++){
+	while(btnConst){
 		setTimeout(function(){btnMove()}, 500);
-		
+		if(score = 5){
+			break;
+		}
 	}
 }
