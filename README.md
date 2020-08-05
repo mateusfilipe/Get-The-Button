@@ -29,4 +29,10 @@ the css style and the <a href="https://github.com/mateusfilipe/Get-The-Button/bl
  Second day on the project, not going so well. I can't find a way to make to button keeps constantly moving on the screen.
  So today I just changed some functions and tried new things.
  </li>
+ <li>Day 3 ✔️<br>
+ BEST DAY (so far), after a mind block for a few days I wasn't feeling very conffident about the project or what I'm able to do.
+ After talking with my friend and discussing some ideas, he cheered me up to search for other ways to work, so here it is. Now the button
+ with a interval in the page it goes to random places on the screen after you click on the start button (it won't stop, but we will see that later),
+ and now we have difficult option, so it's basically done. Just need to finish the style.
+ </li>
 </ul>
