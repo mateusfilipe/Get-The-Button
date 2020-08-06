@@ -1,28 +1,25 @@
 var score = 0;
 var btnTempo = 0;
+var intervalCtrl = null;
+var started = false;
 function btnMove(){
 	var btnLeft = Math.floor(Math.random() * 1087)+200;
 	var btnTop = Math.floor(Math.random() * 621);
-	document.getElementById("clickBtn").style.left= btnLeft+"px";
-	document.getElementById("clickBtn").style.top= btnTop+"px";
+	if(started){
+		document.getElementById("clickBtn").style.left= btnLeft+"px";
+		document.getElementById("clickBtn").style.top= btnTop+"px";
+	}
 }
 function btnClickFunction(){
-	/*antes = Date.now();
-	duracao = (Date.now()-antes)/1000;*/
-	score = score+1;
+	if(started){
+		score = score+1;
+	}
 	document.getElementById("pts").innerHTML = "Score: " + score;
 	btnMove();
 
 }
-function btnStopFunction(){
-	score = 0;
-	document.getElementById("clickBtn").style.left= 15+"px";
-	document.getElementById("clickBtn").style.top= 105+"px";
-	document.getElementById("pts").innerHTML = "Score: " + score;
-	//document.getElementById("time").innerHTML = "Time: " + duracao;
-}
-
 function btnStartFunction(){
+	started = true;
 	if(document.getElementById("easy").checked){
 		btnTempo = 3000;
 	}else if(document.getElementById("medium").checked){
@@ -34,12 +31,14 @@ function btnStartFunction(){
 	}else{
 		btnTempo = 4000;
 	}
-	setInterval(function(){ btnMove(); }, btnTempo);
+	intervalCtrl = setInterval(function(){ btnMove(); }, btnTempo);
 }
-
-/*function btnWaitMove(){
-	//code before the pause
-	setTimeout(function(){
-	    btnMove();
-	}, 100);
-}*/
+function btnStopFunction(){
+	started = false;
+	clearInterval(intervalCtrl);
+	score = 0;
+	btnTempo = 0;
+	document.getElementById("clickBtn").style.left= 15+"px";
+	document.getElementById("clickBtn").style.top= 105+"px";
+	document.getElementById("pts").innerHTML = "Score: " + score;
+}
