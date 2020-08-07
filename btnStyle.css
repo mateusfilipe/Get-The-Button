@@ -1,3 +1,38 @@
+body{
+	background-color: #000000;
+}
+
+form{
+	position: absolute;
+	left: 15px;
+	top: 135px;
+}
+
+img{
+	position: absolute;
+	left: 0px;
+	top: 400px;
+}
+input{
+	background: url(pepe.gif) no-repeat;
+
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+#mainDiv{
+	background-image: url();
+	background-color: #fffb96;
+	margin-right: 1200px;
+	margin-top: 15px;
+	height: 621px;
+	width: 200px;
+}
 #startBtn{
 	position: absolute;
 	left: 15px;
@@ -22,35 +57,14 @@
   	outline: none;
   	box-shadow: none;
 }
-div{
-	/*https://media2.giphy.com/media/l3fQ9icfExRfiePrq/source.gif*/
-	background-image: url();
-	background-color: #fffb96;
-	margin-right: 1200px;
-	margin-top: 15px;
-	height: 621px;
-	width: 200px;
-}
-form{
-	position: absolute;
-	left: 15px;
-	top: 135px;
-}
-p{
+#pts{
 	position: absolute;
 	left: 15px;
 	top: 205px;
+	font-family: Arial;
 }
-iframe{
+.videoFrame{
 	position: absolute;
 	left: 15px;
 	top: 265px;
-}
-body{
-	background-color: #000000;
-}
-img{
-	position: absolute;
-	left: 0px;
-	top: 400px;
 }

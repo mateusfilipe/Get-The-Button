@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="btnStyle.css">
 </head>
 <body>
-	<div>
+	<div id = "mainDiv">
 		<button type = "button" id = "startBtn" onclick="btnStartFunction()" >Start</button><br/>
 		<button type = "button" id = "stopBtn" onclick="btnStopFunction()" >Stop</button><br/>
 		<button type = "button" id = "clickBtn" onclick="btnClickFunction()"></button><br/>
@@ -16,7 +16,7 @@
 		<input type="radio" name="level" id="impossible">Impossible<br>
 	</form>
 	<p id = "pts">Score: 0</p>
-	<iframe width="185" height="100" src="https://www.youtube.com/embed/erb4n8PW2qw? autoplay=1&;enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay="1"></iframe>
+	<iframe class = "videoFrame" width="185" height="100" src="https://www.youtube.com/embed/erb4n8PW2qw? autoplay=1&;enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay="1"></iframe>
 	<img src="pepe.gif" alt="pepeDance">
 	</div>
 	<script src ="btnFunctions.js"></script>

@@ -25,7 +25,7 @@ function btnStartFunction(){
 	}else if(document.getElementById("medium").checked){
 		btnTempo = 2500;
 	}else if(document.getElementById("hard").checked){
-		btnTempo = 1500;
+		btnTempo = 700;
 	}else if(document.getElementById("impossible").checked){
 		btnTempo = 300;
 	}else{
