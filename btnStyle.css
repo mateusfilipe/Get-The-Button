@@ -6,6 +6,7 @@ form{
 	position: absolute;
 	left: 15px;
 	top: 135px;
+	font-family: Arial;
 }
 
 img{
@@ -18,7 +19,7 @@ input{
 
 }
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: #228B22;
   border: none;
   color: white;
   text-align: center;
