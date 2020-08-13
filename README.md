@@ -5,7 +5,7 @@
 Here we will trying to create a reflex trainer, 
 so we can be good as <a href="https://youtu.be/qFGpLdGEL9k?t=13">Hiko</a> in that play:
 
-<img src="https://i.makeagif.com/media/3-13-2015/SiBYDc.gif"> 
+<img src="https://steamuserimages-a.akamaihd.net/ugc/854981990729229491/1E550152A433A5BF130AF4D2E2F60FF6B587080B/"> 
 
 <i><b>Okay</b></i>, that's a little too much 😅.<br>
 We will just try to click fast as possible in the <strong>green button</strong> on the screen.<br>
