@@ -35,4 +35,9 @@ the css style and the <a href="https://github.com/mateusfilipe/Get-The-Button/bl
  with a interval in the page it goes to random places on the screen after you click on the start button (it won't stop, but we will see that later),
  and now we have difficult option, so it's basically done. Just need to finish the style.
  </li>
+ <li>Day 4 ✔️<br>
+ Done, everything is working (i think). The style is simple but, I will probably change some things in the future. 
+ If you have any idea feel free to contact me.
+  
+ </li>
 </ul>
