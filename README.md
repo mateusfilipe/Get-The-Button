@@ -41,3 +41,4 @@ the css style and the <a href="https://github.com/mateusfilipe/Get-The-Button/bl
   
  </li>
 </ul>
+<img width = "5%" src="https://www.pngkey.com/png/detail/624-6246436_verified-account-icon-selo-verificao-instagram-png.png"> 
