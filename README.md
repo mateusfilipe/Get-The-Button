@@ -1,4 +1,5 @@
-# Get The Button 🖱️
+# Get The Button 🖱️<img width = "2.4%" src="https://imagepng.org/wp-content/uploads/2019/12/check-icone-1-scaled.png"> 
+
 <img width = "25%" src="https://thumbs.gfycat.com/MiserableVelvetyFlamingo-size_restricted.gif"> 
 <h2>Welcome to my little project</h2> 
 
@@ -41,4 +42,3 @@ the css style and the <a href="https://github.com/mateusfilipe/Get-The-Button/bl
   
  </li>
 </ul>
-<img width = "5%" src="https://www.pngkey.com/png/detail/624-6246436_verified-account-icon-selo-verificao-instagram-png.png"> 
