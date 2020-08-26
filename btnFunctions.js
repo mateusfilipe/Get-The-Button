@@ -11,6 +11,7 @@ function btnMove(){
 	}
 }
 function btnClickFunction(){
+	clearInterval(intervalCtrl)
 	if(started){
 		score = score+1;
 	}
