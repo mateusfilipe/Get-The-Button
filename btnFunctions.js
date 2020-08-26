@@ -11,7 +11,6 @@ function btnMove(){
 	}
 }
 function btnClickFunction(){
-	clearInterval(intervalCtrl)
 	if(started){
 		score = score+1;
 	}
@@ -19,6 +18,7 @@ function btnClickFunction(){
 	btnMove();
 }
 function btnStartFunction(){
+	clearInterval(intervalCtrl);
 	started = true;
 	if(document.getElementById("easy").checked){
 		btnTempo = 3000;
@@ -39,6 +39,6 @@ function btnStopFunction(){
 	score = 0;
 	btnTempo = 0;
 	document.getElementById("clickBtn").style.left= 15+"px";
-	document.getElementById("clickBtn").style.top= 105+"px";
+	document.getElementById("clickBtn").style.top= 110+"px";
 	document.getElementById("pts").innerHTML = "Score: " + score;
 }

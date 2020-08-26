@@ -19,10 +19,10 @@ input{
 
 }
 button {
-	box-shadow: 0px 0px 4px 0px #3dc21b;
-	background-color:#44c767;
+	box-shadow: 0px 0px 4px 0px #000280;
+	background-color:#4587e6;
 	border-radius:8px;
-	border:1px solid #18ab29;
+	border:1px solid #5351cf;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -33,7 +33,7 @@ button {
 	text-shadow:0px 1px 5px #2f6627;
 }
 button:hover {
-	background-color:#42bd00;
+	background-color:#004bb5;
 }
 button:active {
 	position:relative;
@@ -48,6 +48,17 @@ button:focus {outline:none}
 	margin-top: 15px;
 	height: 621px;
 	width: 200px;
+	/*---------------------------------*/
+	/*https://codersblock.com/blog/creating-glow-effects-with-css/*/
+	box-shadow:
+    inset 0 0 50px #fff,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 10px #fff,
+    -10px 0 30px #f0f,
+    10px 0 30px #0ff;
 }
 #startBtn{
 	position: absolute;
@@ -67,18 +78,28 @@ button:focus {outline:none}
 	height: 20px;
 	width: 20px;
 	box-shadow: 0px 0px 6px 0px #3dc21b;
-		text-shadow:0px 1px 0px #2f6627;
+	text-shadow:0px 1px 0px #2f6627;
 	background-color: #4CAF50;
 	text-decoration: none;
   	display: inline-block;
   	border: none;
   	outline: none;
-  	box-shadow: none;
+  	box-shadow:
+    inset 0 0 50px #CCFFCC,
+    inset 20px 0 80px #CCFFCC,
+    inset -20px 0 80px #CCFFCC,
+    inset 20px 0 300px #CCFFCC,
+    inset -20px 0 300px #CCFFCC,
+    0 0 10px #fff,
+    -10px 0 30px #f0f,
+    10px 0 30px #0ff;
 }
 #pts{
 	position: absolute;
 	left: 15px;
 	top: 225px;
+	font-weight: bold;
+	color:white;
 	font-family: Arial;
 }
 .videoFrame{
@@ -92,6 +113,8 @@ button:focus {outline:none}
 /*=================*/
 .control {
 		font-family: arial;
+		font-weight: bold;
+		color:white;
 		display: block;
 		position: relative;
 		padding-left: 30px;
