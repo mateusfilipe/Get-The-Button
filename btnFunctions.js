@@ -17,7 +17,6 @@ function btnClickFunction(){
 	}
 	document.getElementById("pts").innerHTML = "Score: " + score;
 	btnMove();
-
 }
 function btnStartFunction(){
 	started = true;
