@@ -30,6 +30,11 @@ button:focus {
 .buttonCT:hover {
   background-color: gray;
 }
+.sobre{
+	background-color: #111;
+	color: white;
+	border: none;
+}
 #clickBtn{
 	position: absolute;
 	border-radius: 50%;
@@ -45,6 +50,7 @@ p{
 	font-size: 20px;
 		color: #FFFFFF;
 }
+/*Search for the online version, i lost the link for the original*/
 .control {
 font-family: arial;
 font-weight: bold;

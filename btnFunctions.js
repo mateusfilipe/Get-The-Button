@@ -2,8 +2,9 @@ var score = 0;
 var btnTempo = 0;
 var intervalCtrl = null;
 var started = false;
+document.getElementsByName("Sobre").disabled = true;
 function btnMove(){
-	var btnLeft = Math.floor(Math.random() * 1087)+200;
+	var btnLeft = Math.floor(Math.random() * 1087)+100;
 	var btnTop = Math.floor(Math.random() * 621);
 	if(started){
 		document.getElementById("clickBtn").style.left= btnLeft+"px";
