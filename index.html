@@ -5,38 +5,40 @@
 	<link rel="stylesheet" href="btnStyle.css">
 </head>
 <body>
-	<div id = "mainDiv">
-		<button type = "button" id = "startBtn" onclick="btnStartFunction()" >Start</button><br/>
-		<button type = "button" id = "stopBtn" onclick="btnStopFunction()" >Stop</button><br/>
-		<button type = "button" id = "clickBtn" onclick="btnClickFunction()"></button><br/>
-		<p id = "pts">Score: 0</p>
+	<button type = "button" id = "clickBtn" onclick="btnClickFunction()"></button><br/>
+	<div class="sidenav">
 
-	<form>
-		<label class="control control-radio">
-				Easy
-				<input type="radio" name="level" id="easy">
-				<div class="control_indicator"></div>
-		</label>
-		<label class="control control-radio">
-				Medium
-				<input type="radio" name="level" id="medium">
-				<div class="control_indicator"></div>
-		</label>
-		<label class="control control-radio">
-				Hard
-				<input type="radio" name="level" id="hard">
-				<div class="control_indicator"></div>
-		</label>
-		<label class="control control-radio">
-				Impossible
-				<input type="radio" name="level" id="impossible">
-				<div class="control_indicator"></div>
-		</label>
+  			<button type = "button" class = "buttonCT" onclick="btnStartFunction()" >Start</button>
+			<button type = "button" class = "buttonCT" onclick="btnStopFunction()" >Stop</button><br/>
+			<p id = "pts">Score: 0</p>
+		<form>
+			<label class="control control-radio">
+					Nível 1
+					<input type="radio" name="level" id="easy">
+					<div class="control_indicator"></div>
+			</label>
+			<label class="control control-radio">
+					Nível 2
+					<input type="radio" name="level" id="medium">
+					<div class="control_indicator"></div>
+			</label>
+			<label class="control control-radio">
+					Nível 3
+					<input type="radio" name="level" id="hard">
+					<div class="control_indicator"></div>
+			</label>
+			<label class="control control-radio">
+					Nível 99
+					<input type="radio" name="level" id="impossible">
+					<div class="control_indicator"></div>
+			</label>
 		</form>
-
-
-	<iframe class = "videoFrame" width="185" height="100" src="https://www.youtube.com/embed/erb4n8PW2qw? autoplay=1&;enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen autoplay="1"></iframe>
-	<img src="pepe.gif" alt="pepeDance">
+		<center>
+		<img height="80px" src="https://media.tenor.com/images/00841c6abbcadd92c7015c5c88654a87/tenor.gif" alt="pepeDance">
+		</center>
+		<p>O objetivo aqui é um simples treino de reflexo, tente clicar na bolinha verde para marcar pontos.</p>
+		<button type = "button" class = "" onclick="" >?</button><br/>
+		</div>
 	<script src ="btnFunctions.js"></script>
 </body>
 </html>
