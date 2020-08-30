@@ -39,6 +39,8 @@ the css style and the <a href="https://github.com/mateusfilipe/Get-The-Button/bl
  <li>Day 4 ✔️<br>
  Done, everything is working (i think). The style is simple but, I will probably change some things in the future. 
  If you have any idea feel free to contact me.
-  
+ </li>
+ <li>Day 5 ✔️<br>
+ Changed some of the style, now it looks more fancy and bright. Still trying to figure out how to solve the time bug from the gree button.
  </li>
 </ul>
