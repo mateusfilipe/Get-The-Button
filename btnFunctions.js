@@ -17,7 +17,6 @@ function btnMove(){
 	}
 }
 function btnClickFunction(){
-	audio.play();
 	if(started){
 		score = score+1;
 	}
