@@ -3,7 +3,12 @@ var btnTempo = 0;
 var intervalCtrl = null;
 var started = false;
 document.getElementsByName("Sobre").disabled = true;
+
+/*sizeWidth = window.innerWidth;
+sizeHeight = window.innerHeight;*/
+
 function btnMove(){
+
 	var btnLeft = Math.floor(Math.random() * 1087)+100;
 	var btnTop = Math.floor(Math.random() * 621);
 	if(started){
@@ -12,6 +17,7 @@ function btnMove(){
 	}
 }
 function btnClickFunction(){
+	audio.play();
 	if(started){
 		score = score+1;
 	}

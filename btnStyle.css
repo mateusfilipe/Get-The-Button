@@ -5,6 +5,11 @@ button:focus {
     border: none;
     outline: none;
 }
+
+audio{
+	width: 100px;
+	height: 30px;
+}
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 100px; /* Set the width of the sidebar */
