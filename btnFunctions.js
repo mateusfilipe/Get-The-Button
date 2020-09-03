@@ -8,7 +8,7 @@ document.getElementsByName("Sobre").disabled = true;
 sizeHeight = window.innerHeight;*/
 
 function btnMove(){
-
+	btnStartFunction();
 	var btnLeft = Math.floor(Math.random() * 1087)+100;
 	var btnTop = Math.floor(Math.random() * 621);
 	if(started){

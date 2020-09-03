@@ -34,6 +34,7 @@ audio{
 }
 .buttonCT:hover {
   background-color: gray;
+  cursor: pointer;
 }
 .sobre{
 	background-color: #111;
@@ -50,6 +51,9 @@ audio{
 	background-color: #4CAF50;
   	border: none;
   	outline: none;
+}
+#clickBtn:hover{
+  cursor: pointer;
 }
 p{
 	font-size: 20px;
