@@ -10,6 +10,12 @@ audio{
 	width: 100px;
 	height: 30px;
 }
+p{
+	font-family: Arial;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding-left: 7px;
+}
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 100px; /* Set the width of the sidebar */
@@ -55,10 +61,7 @@ audio{
 #clickBtn:hover{
   cursor: pointer;
 }
-p{
-	font-size: 20px;
-		color: #FFFFFF;
-}
+
 /*Search for the online version, i lost the link for the original*/
 .control {
 font-family: arial;
@@ -70,7 +73,7 @@ padding-left: 30px;
 margin-bottom: 5px;
 padding-top: 3px;
 cursor: pointer;
-font-size: 16px;
+font-size: 18px;
 }
 .control input {
 	position: absolute;
