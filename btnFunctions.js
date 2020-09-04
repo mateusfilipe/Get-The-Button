@@ -9,7 +9,7 @@ sizeHeight = window.innerHeight;*/
 
 function btnMove(){
 	btnStartFunction();
-	var btnLeft = Math.floor(Math.random() * 1087)+100;
+	var btnLeft = Math.floor(Math.random() * 1087)+104;
 	var btnTop = Math.floor(Math.random() * 621);
 	if(started){
 		document.getElementById("clickBtn").style.left= btnLeft+"px";
