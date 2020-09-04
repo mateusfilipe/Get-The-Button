@@ -41,6 +41,10 @@ the css style and the <a href="https://github.com/mateusfilipe/Get-The-Button/bl
  If you have any idea feel free to contact me.
  </li>
  <li>Day 5 ✔️<br>
- Changed some of the style, now it looks more fancy and bright. Still trying to figure out how to solve the time bug from the gree button.
+ Changed some of the style, now it looks more fancy and bright. Still trying to figure out how to solve the time bug from the green button.
+ </li>
+ <li>Day 6/7 ✔️<br>
+ A lot of changes, added a CS:GO background to make it a little harder to find the green button. Changed how the score will be shown, becaus now we have a timer
+  after 20s the score will show up on the top of the screen. The next step is to add a animation to the score and to the timer.
  </li>
 </ul>
