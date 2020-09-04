@@ -42,7 +42,6 @@ p{
   	display: block;
 	display:inline-block;
 	border: none;
-	font-family: 'Sedgwick Ave Display', cursive;
 }
 .buttonCT:hover {
   background-color: gray;
