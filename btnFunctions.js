@@ -52,9 +52,14 @@ function btnStopFunction(){
 }
 /*
 function timerFunction(){
-	var intervalTime = null;
+	var intervalTime = 20;
+  	intervalTime -= 1;
+  	document.getElementById("time").innerHTML = "Time: " + intervalTime + "s";
+  	window.setTimeout(timerFunction, 1000);
+}
+
+var intervalTime = null;
 	for (var i = 20; i > 0; i--) {
 		intervalTime = setInterval(function(){document.getElementById("time").innerHTML = "Time: " + score+i;}, 1000);
 	}
-}
 */
