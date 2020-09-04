@@ -1,9 +1,9 @@
 var score = 0;
 var btnTempo = 0;
+var intervalTime = 20;
 var intervalCtrl = null;
 var started = false;
 document.getElementsByName("Sobre").disabled = true;
-
 /*sizeWidth = window.innerWidth;
 sizeHeight = window.innerHeight;*/
 
@@ -24,7 +24,6 @@ function btnClickFunction(){
 	btnMove();
 }
 function btnStartFunction(){
-	timerFunction();
 	clearInterval(intervalCtrl);
 	started = true;
 	if(document.getElementById("easy").checked){
@@ -42,20 +41,23 @@ function btnStartFunction(){
 }
 function btnStopFunction(){
 	started = false;
-	clearInterval(intervalCtrl);
 	score = 0;
 	btnTempo = 0;
+	intervalTime = 0;
+	clearInterval(intervalCtrl);
 	document.getElementById("clickBtn").style.left= 15+"px";
 	document.getElementById("clickBtn").style.top= 110+"px";
 	document.getElementById("pts").innerHTML = "Score: " + score;
-	document.getElementById("time").innerHTML = "Time: " + 0 + "s";
+	document.getElementById("time").innerHTML = "Time: " + intervalTime + "s";
 }
+
 /*
 function timerFunction(){
-	var intervalTime = 20;
-  	intervalTime -= 1;
-  	document.getElementById("time").innerHTML = "Time: " + intervalTime + "s";
-  	window.setTimeout(timerFunction, 1000);
+	window.setTimeout(timerFunction, 1000);
+	while(intervalTime >= 0){
+		document.getElementById("time").innerHTML = "Time: " + intervalTime + "s";
+		intervalTime = intervalTime - 1;
+	}	
 }
 
 var intervalTime = null;
