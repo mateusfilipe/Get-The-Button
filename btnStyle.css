@@ -1,6 +1,8 @@
 body{
 	background-color: #16213e;
 	background-image: url("https://img.wallpapersafari.com/desktop/1366/768/57/51/Ci6p3R.jpg");
+	font-family: Arial;
+
 }
 button:focus {
     border: none;
@@ -13,10 +15,12 @@ audio{
 	height: 30px;
 }
 p{
-	font-family: Arial;
 	font-size: 20px;
 	color: #FFFFFF;
 	padding-left: 7px;
+}
+.inf{
+	font-family: 'Patrick Hand', cursive;
 }
 .sidenav {
   border-right: outset;
@@ -35,7 +39,6 @@ p{
 }
 .buttonCT{
 	padding: 6px 29px 6px 21px;
-	text-decoration: none;
 	font-size: 25px;
 	color: #FFFFFF;
 	background-color: #111;
