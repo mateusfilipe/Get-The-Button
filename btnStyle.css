@@ -52,9 +52,17 @@ p{
 	color: white;
 	border: none;
 }
+#pts{
+	position: absolute;
+	visibility: hidden;
+	left: 655.5px;
+	top: 15px;
+}
 #clickBtn{
 	position: absolute;
 	border-radius: 50%;
+	left: 655.5px;
+	top: 310.5px;
 	height: 20px;
 	width: 20px;
 	box-shadow: 0px 0px 6px 0px #3dc21b;
@@ -66,6 +74,12 @@ p{
 #clickBtn:hover{
   cursor: pointer;
 }
+#objecttofade{
+	color: white;
+	opacity: 1;             /*set opacity to 1 so it will be fully visible*/
+	transition: all 0.25s; /*you can change the duration of the transition*/
+}
+
 
 /*Search for the online version, i lost the link for the original*/
 .control {
