@@ -24,6 +24,7 @@ function btnClickFunction(){
 	btnMove();
 }
 function btnStartFunction(){
+	timerFunction();
 	clearInterval(intervalCtrl);
 	started = true;
 	if(document.getElementById("easy").checked){
@@ -47,4 +48,13 @@ function btnStopFunction(){
 	document.getElementById("clickBtn").style.left= 15+"px";
 	document.getElementById("clickBtn").style.top= 110+"px";
 	document.getElementById("pts").innerHTML = "Score: " + score;
+	//document.getElementById("time").innerHTML = "Time: " + 0 + "s";
 }
+/*
+function timerFunction(){
+	var intervalTime = null;
+	for( let i=20 ; i>0 ; i--){
+		intervalTime = setInterval(function(){document.getElementById("time").innerHTML = "Time: " + i;}, 1000);
+	}
+}
+*/
