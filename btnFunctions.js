@@ -5,6 +5,8 @@ var timeCtrlHandle = null;
 var intervalCtrl = null;
 var timeCtrl = null;
 var started = false;
+var myTimer = document.getElementById("time");
+
 document.getElementsByName("Sobre").disabled = true;
 /*sizeWidth = window.innerWidth;
 sizeHeight = window.innerHeight;*/
@@ -23,11 +25,17 @@ function btnClickFunction(){
 	if(started){
 		score = score+1;
 	}
-	document.getElementById("pts").innerHTML = "Score: " + score;
+	if(score < 10){
+		document.getElementById("pts").innerHTML = "Score:0" + score;
+	}else{
+		document.getElementById("pts").innerHTML = "Score:" + score;
+	}
 	btnMove();
 }
 function btnStartFunction(){
+	document.getElementById("clickBtn").style.pointerEvents = 'auto';
 	intervalTime = 20;
+	score = 0;
 	timerFunction();
 	clearInterval(intervalCtrl);
 	started = true;
@@ -52,24 +60,35 @@ function btnStopFunction(){
 	clearTimeout(timeCtrlHandle);
 	document.getElementById("clickBtn").style.left= 655.5+"px";
 	document.getElementById("clickBtn").style.top= 310.5+"px";
-	document.getElementById("pts").innerHTML = "Score: " + score;
+	document.getElementById("pts").innerHTML = "Score:" + score;
 	document.getElementById("time").innerHTML = "Time: " + intervalTime + "s";
+	document.getElementById("pts").style.visibility= "hidden";
+	myTimer.style.color = "white";
 }
 
 
 function timerFunction(){
-	var myTimer = document.getElementById("time");
 	if(intervalTime < 10){
 		myTimer.innerHTML = "Time: 0" + intervalTime + "s";
+		myTimer.style.color = "red";
 	}else{
 		myTimer.innerHTML = "Time: " + intervalTime + "s";
+		myTimer.style.color = "white";
 	}
 
 	if(intervalTime <= 0){
-		document.getElementById("pts").style.visibility= "visible";
-		btnStopFunction();
+		document.getElementById("clickBtn").style.left = 655.5+"px";
+		document.getElementById("clickBtn").style.top = 310.5+"px";
+		document.getElementById("clickBtn").style.pointerEvents = 'none';
+		document.getElementById("pts").style.visibility = "visible";
 		return;
 	}
 	intervalTime = intervalTime - 1;
 	timeCtrlHandle = window.setTimeout(timerFunction, 1000);
 }
+
+var speed = 2000; 
+var t = setInterval(function(){
+  var slideSource = document.getElementById('pts');
+  slideSource.classList.toggle('fade');
+}, speed);

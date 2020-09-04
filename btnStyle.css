@@ -55,9 +55,20 @@ p{
 #pts{
 	position: absolute;
 	visibility: hidden;
-	left: 655.5px;
+	left: 330px;
 	top: 15px;
+	font-size: 200px;
+	text-align: center;
+	opacity: 0.8;
+  	transition: opacity 1s; 
+  	color: #cf1b1b;
+  	font-family: 'Sedgwick Ave Display', cursive;
+	text-shadow: 2px 2px 4px #000000;
 }
+#pts.fade{
+	opacity: 0;
+}
+
 #clickBtn{
 	position: absolute;
 	border-radius: 50%;
