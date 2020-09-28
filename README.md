@@ -48,3 +48,4 @@ the css style and the <a href="https://github.com/mateusfilipe/Get-The-Button/bl
   after 20s the score will show up on the top of the screen. The next step is to add a animation to the score and to the timer.
  </li>
 </ul>
+<h6><a href="https://mateusfilipe.github.io/Get-The-Button/">Try it!</a></h6>
